@@ -8,7 +8,6 @@ export default defineGkdApp({
       key: 1,
       name: '用腾讯文件打开-允许',
       fastQuery: true,
-      actionMaximum: 1,
       actionDelay: 200,
       actionCd: 5000,
       activityIds: ['.ui.chatting.AppAttachNewDownloadUI'],
