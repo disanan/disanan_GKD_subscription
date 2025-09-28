@@ -13,10 +13,8 @@ export default defineGkdApp({
       rules: [
         {
           activityIds: 'com.didi.ride.dimina.DMActivity',
-          anyMatches:{
-            '@Image <2 View < View <4 View < WebView < WebView < [vid="touch_intercept_fl"]',
-            '@Image <2 View < View < View <5 View < View < WebView < WebView < [vid="touch_intercept_fl"]',
-          },
+          anyMatches: '@Image <2 View < View <4 View < WebView < WebView < [vid="touch_intercept_fl"]','@Image <2 View < View < View <5 View < View < WebView < WebView < [vid="touch_intercept_fl"]',
+          
         },
       ],
     },
