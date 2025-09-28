@@ -13,7 +13,7 @@ export default defineGkdApp({
       rules: [
         {
           activityIds: 'com.didi.ride.dimina.DMActivity',
-          anyMatches:[
+          anyMatches: [
             '@Image <2 View < View <4 View < WebView < WebView < [vid="touch_intercept_fl"]',
             '@Image <2 View < View < View <5 View < View < WebView < WebView < [vid="touch_intercept_fl"]',
           ],
@@ -29,7 +29,7 @@ export default defineGkdApp({
         {
           fastQuery: true,
           activityIds: 'com.didi.sdk.app.MainActivity',
-          anyMatches:[
+          anyMatches: [
             '[id="com.sdu.didi.psnger:id/popClose"][desc="关闭弹窗"]',
             '[id="com.sdu.didi.psnger:id/iv_close"]',
             '@TextView <2 View < View <2 View <6 WebView < WebView < FrameLayout < [vid="web_parent"]',
@@ -52,5 +52,5 @@ export default defineGkdApp({
         },
       ],
     },
-   ],
+  ],
 });
