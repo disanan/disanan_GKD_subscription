@@ -14,18 +14,12 @@ export default defineGkdApp({
       rules: [
         {
           key: 0,
-          matches: [
-            '[id="com.ct.client:id/cbNoMore"]',
-            '[text="不再弹出"]',
-          ],                 
-        },      
+          matches: ['[id="com.ct.client:id/cbNoMore"]', '[text="不再弹出"]'],
+        },
         {
           key: 1,
           actionDelay: 200,
-          matches: [
-            '[id="com.ct.client:id/close"]',
-            '[vid="close"]',
-          ],
+          matches: ['[id="com.ct.client:id/close"]', '[vid="close"]'],
         },
       ],
     },

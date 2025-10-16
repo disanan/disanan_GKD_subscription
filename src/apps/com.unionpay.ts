@@ -13,12 +13,7 @@ export default defineGkdApp({
       activityIds: ['.activity.UPActivityMain'],
       rules: [
         {
-          matches: [
-            '[id="com.unionpay:id/close_view"]',
-            '[vid="close_view"]',
-          ],
-          
-          
+          matches: ['[id="com.unionpay:id/close_view"]', '[vid="close_view"]'],
         },
       ],
     },
