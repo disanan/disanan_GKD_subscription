@@ -14,7 +14,7 @@ export default defineGkdApp({
           activityIds: 'com.didi.ride.dimina.DMActivity',
           anyMatches: [
             '@TextView <2 View < View < View <7 View < View < View < View <4 View < View < View < View <2 WebView < WebView < FrameLayout < [vid="webrootlinearlayout"]',
-                      ],
+          ],
         },
       ],
     },
