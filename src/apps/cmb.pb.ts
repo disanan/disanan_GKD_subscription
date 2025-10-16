@@ -11,7 +11,7 @@ export default defineGkdApp({
       actionCd: 1000,
       rules: [
         {
-          activityIds: 'com.didi.ride.dimina.DMActivity',
+          activityIds: '.app.h5container.webviewcontainer.PBWebContainerActivity',
           anyMatches: [
             '@TextView <2 View < View < View <7 View < View < View < View <4 View < View < View < View <2 WebView < WebView < FrameLayout < [vid="webrootlinearlayout"]',
           ],
