@@ -13,14 +13,14 @@ export default defineGkdApp({
       activityIds: ['.activity.MainActivity'],
       rules: [
         {
+          key: 0,
           matches: [
             '[id="com.ct.client:id/cbNoMore"]',
             '[text="不再弹出"]',
           ],                 
-        },
-      ],
-      rules: [
+        },      
         {
+          key: 1,
           actionDelay: 200,
           matches: [
             '[id="com.ct.client:id/close"]',
