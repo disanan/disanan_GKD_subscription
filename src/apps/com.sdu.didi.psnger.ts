@@ -8,7 +8,7 @@ export default defineGkdApp({
       key: 1,
       name: '关闭弹出广告',
       actionDelay: 100,
-      actionCd: 3000,
+      actionCd: 1000,
 
       rules: [
         {
@@ -24,7 +24,7 @@ export default defineGkdApp({
       key: 2,
       name: '关闭弹出广告2',
       actionDelay: 100,
-      actionCd: 3000,
+      actionCd: 1000,
       rules: [
         {
           fastQuery: true,
@@ -43,7 +43,7 @@ export default defineGkdApp({
       key: 3,
       name: '关闭弹窗-开心收下',
       actionDelay: 100,
-      actionCd: 3000,
+      actionCd: 1000,
       rules: [
         {
           fastQuery: true,
