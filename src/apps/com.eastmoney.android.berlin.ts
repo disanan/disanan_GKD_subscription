@@ -10,10 +10,15 @@ export default defineGkdApp({
       fastQuery: true,
       actionDelay: 200,
       actionCd: 1000,
-      activityIds: ['com.eastmoney.android.module.launcher.internal.home.HomeActivity'],
+      activityIds: [
+        'com.eastmoney.android.module.launcher.internal.home.HomeActivity',
+      ],
       rules: [
         {
-          matches: ['[id="com.eastmoney.android.berlin:id/iv_single_close"]', '[vid="iv_single_close"]'],
+          matches: [
+            '[id="com.eastmoney.android.berlin:id/iv_single_close"]',
+            '[vid="iv_single_close"]',
+          ],
         },
       ],
     },
