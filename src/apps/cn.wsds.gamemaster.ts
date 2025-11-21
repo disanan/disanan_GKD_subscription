@@ -14,7 +14,7 @@ export default defineGkdApp({
       rules: [
         {
           key: 0,
-          matches: ['[id="cn.wsds.gamemaster:id/view_close_button"]', 
+          matches: ['[id="cn.wsds.gamemaster:id/view_close_button"]'],
         },
         ],
     },
